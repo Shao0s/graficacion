@@ -1,0 +1,73 @@
+Este programa en Python usa la librería turtle para dibujar una matriz de números como una imagen de colores.
+Cada número de la matriz corresponde a un color distinto y se representa con un cuadrado (pixel).
+
+¿Cómo funciona?
+
+El programa lee la matriz desde un archivo llamado matriz.txt.
+
+Cada número se convierte en un color, por ejemplo:
+
+0 = blanco
+
+1 = negro
+
+2 = rojo
+
+3 = verde
+
+4 = azul
+
+5 = amarillo
+
+6 = café
+
+7 = rosa
+
+8 = naranja
+
+9 = morado
+
+Se dibuja la matriz completa en una ventana de Turtle.
+
+Si aparece un número que no está en la lista, se dibuja en gris.
+
+ Archivos del proyecto
+├── matriz.txt   # Contiene la matriz de números
+├── main.py      # Código en Python
+└── README.md    # Este archivo
+
+ Requisitos
+
+Python 3.8 o superior
+
+Librería turtle (ya incluida en Python)
+
+En Linux puede requerir instalar tkinter con:
+
+sudo apt-get install python3-tk
+
+ Cómo usarlo
+
+Crea o guarda tu matriz en un archivo llamado matriz.txt.
+
+Ejecuta el programa con:
+
+python3 main.py
+
+
+Se abrirá una ventana y verás la matriz dibujada como un mosaico de colores.
+
+ Ejemplo
+
+Si matriz.txt tiene:
+
+0 1 2
+3 4 5
+6 7 8
+
+
+Se dibujará una cuadrícula de colores en 3x3.
+
+ Nota
+
+Para probarlo se usó una matriz de 100x100, que fue generada por IA
